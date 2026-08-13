@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Read before posting / 留言前先看"
+    url: "https://github.com/jiajie1982-png/MediaRoam-Feedback#readme"
+    about: "Privacy guidance and safe diagnostic information / 隱私提醒與安全回報方式"
+  - name: "Browse existing feedback / 搜尋現有回饋"
+    url: "https://github.com/jiajie1982-png/MediaRoam-Feedback/issues"
+    about: "Check for an existing report before creating a new one / 建立新回報前先搜尋"
