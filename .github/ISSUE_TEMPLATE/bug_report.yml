@@ -1,6 +1,6 @@
 name: "Report a bug / 回報問題"
 description: "Report a reproducible MediaRoam problem / 回報可重現的 MediaRoam 問題"
-title: "[Bug] "
+title: "[Bug] "\nlabels: ["bug"]
 body:
   - type: markdown
     attributes:
