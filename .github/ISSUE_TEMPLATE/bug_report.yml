@@ -1,0 +1,104 @@
+name: "Report a bug / 回報問題"
+description: "Report a reproducible MediaRoam problem / 回報可重現的 MediaRoam 問題"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve MediaRoam. 感謝協助改善 MediaRoam。
+
+        **Public form / 公開表單：** Never include passwords, verification codes, tokens, IP addresses, full file paths, or private media. 請勿填入帳號密碼、驗證碼、Token、IP、完整路徑或私人檔案。
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Reply language / 回覆語言"
+      options:
+        - "繁體中文"
+        - "简体中文"
+        - "English"
+        - "日本語"
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: "MediaRoam version / App 版本"
+      placeholder: "例如 1.0 (123)"
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: "Device / 裝置"
+      options:
+        - "iPhone"
+        - "iPad"
+        - "Apple TV"
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: "OS version / 系統版本"
+      placeholder: "例如 iOS 18.6 / tvOS 18.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: "Source / 資料來源"
+      options:
+        - "SMB"
+        - "pCloud"
+        - "WebDAV"
+        - "Jellyfin"
+        - "Files / 本機檔案"
+        - "Not source-related / 與來源無關"
+    validations:
+      required: true
+  - type: input
+    id: file_format
+    attributes:
+      label: "File type or media format / 檔案或影音格式"
+      placeholder: "例如 MP4 H.264、MKV HEVC、JPG、PDF；不需要填檔名"
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / 重現步驟"
+      description: "Please keep paths and file names anonymous. 請將路徑與檔名匿名化。"
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected result / 預期結果"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual result and exact error / 實際結果與錯誤文字"
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: "Frequency / 發生頻率"
+      options:
+        - "Every time / 每次"
+        - "Often / 經常"
+        - "Sometimes / 偶爾"
+        - "Once / 只有一次"
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy check / 隱私確認"
+      options:
+        - label: "I removed passwords, tokens, IP addresses, full paths, and private media. / 我已移除密碼、Token、IP、完整路徑與私人檔案。"
+          required: true
