@@ -40,8 +40,8 @@ Start with Automatic VLC-compatible playback. For an unstable network, choose a 
 
 ## Local data / 本機資料
 
-Settings can clear caches and offline copies or sign out of a source. These actions do not delete remote files. A remote rename, move, overwrite, or delete happens only after the user explicitly chooses that command and confirms it.
+Settings can clear caches and offline copies or sign out of a source. These actions do not delete remote files. A remote rename, overwrite, or delete happens only after the user explicitly chooses that command and confirms it.
 
-設定可清除快取、離線副本或登出來源，不會刪除遠端檔案。只有使用者主動選擇並確認遠端改名、移動、覆寫或刪除時，才會更動遠端資料。
+設定可清除快取、離線副本或登出來源，不會刪除遠端檔案。只有使用者主動選擇並確認遠端改名、覆寫或刪除時，才會更動遠端資料。
 
 See the [MediaRoam Privacy Policy](PRIVACY.md).
