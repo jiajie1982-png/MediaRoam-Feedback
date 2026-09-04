@@ -1,8 +1,8 @@
 # MediaRoam Support / 支援
 
-MediaRoam is a free personal media browser for iPhone, iPad, and Apple TV. It connects to storage selected by the user, including SMB, pCloud, WebDAV, Jellyfin, and Files.
+MediaRoam is a free personal media browser for iPhone, iPad, and Apple TV. It connects to storage selected by the user, including SMB, pCloud, WebDAV, Jellyfin, Files, and secure HTTPS links added by the user.
 
-MediaRoam 是免費的 iPhone、iPad 與 Apple TV 個人媒體瀏覽器，可連接使用者自行選擇的 SMB、pCloud、WebDAV、Jellyfin 與「檔案」。
+MediaRoam 是免費的 iPhone、iPad 與 Apple TV 個人媒體瀏覽器，可連接使用者自行選擇的 SMB、pCloud、WebDAV、Jellyfin、「檔案」及使用者加入的安全 HTTPS 連結。
 
 ## Contact support / 聯絡支援
 
@@ -37,6 +37,12 @@ Choose the account's correct region. US accounts use `api.pcloud.com`; EU accoun
 Start with Automatic VLC-compatible playback. For an unstable network, choose a more stable buffer level in Settings. Offline download remains available for supported sources.
 
 建議先使用自動 VLC 相容播放；網路不穩時可在設定中選擇較穩定的緩衝。支援的來源也可下載成離線副本。
+
+### HTTPS links / HTTPS 連結
+
+Use a directly accessible HTTPS media or file URL. MediaRoam rejects plain HTTP, URLs containing embedded credentials, insecure redirects, and HTML or sign-in pages. Saved URLs remain in this device's Keychain. Never post a private or token-bearing URL in a public support report.
+
+請使用可直接存取媒體或檔案的 HTTPS 網址。MediaRoam 會拒絕 HTTP、內嵌帳號密碼、不安全轉址、HTML 網頁及登入頁。儲存的網址只保留在這台裝置的 Keychain；請勿在公開回報中張貼私人或含權杖的網址。
 
 ## Local data / 本機資料
 

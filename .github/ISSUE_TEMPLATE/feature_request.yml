@@ -1,6 +1,7 @@
 name: "Feature request / 功能願望"
 description: "Suggest a useful improvement for MediaRoam / 建議 MediaRoam 改善功能"
-title: "[Feature] "\nlabels: ["enhancement"]
+title: "[Feature] "
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:

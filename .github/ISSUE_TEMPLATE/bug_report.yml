@@ -1,6 +1,7 @@
 name: "Report a bug / 回報問題"
 description: "Report a reproducible MediaRoam problem / 回報可重現的 MediaRoam 問題"
-title: "[Bug] "\nlabels: ["bug"]
+title: "[Bug] "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
@@ -53,6 +54,7 @@ body:
         - "WebDAV"
         - "Jellyfin"
         - "Files / 本機檔案"
+        - "HTTPS link / HTTPS 連結"
         - "Not source-related / 與來源無關"
     validations:
       required: true

@@ -1,6 +1,6 @@
 # MediaRoam Privacy Policy / 隱私權政策
 
-**Effective date / 生效日期: August 13, 2026**
+**Effective date / 生效日期: September 4, 2026**
 
 MediaRoam is a personal media browser. It has no advertising, analytics, tracking, MediaRoam account, or developer-operated media server.
 
@@ -8,15 +8,15 @@ MediaRoam 是個人媒體瀏覽器，不含廣告、分析或追蹤工具，不�
 
 ## Data stored on the device / 保存在裝置上的資料
 
-Connection settings, OAuth tokens, watch history, favorites, subtitles, artwork caches, and offline copies are stored on the user's device. Passwords and OAuth tokens are stored in Apple Keychain. Users can remove this data by signing out of a source, clearing caches, deleting offline copies, or removing the app.
+Connection settings, HTTPS links, OAuth tokens, watch history, favorites, subtitles, artwork caches, and offline copies are stored on the user's device. Passwords, OAuth tokens, and saved HTTPS URLs are stored in Apple Keychain. Users can remove this data by removing a saved link, signing out of a source, clearing caches, deleting offline copies, or removing the app.
 
-連線設定、OAuth 權杖、觀看紀錄、收藏、字幕、圖片快取與離線副本保存在使用者裝置；密碼與 OAuth 權杖存放於 Apple Keychain。使用者可以登出來源、清除快取、刪除離線副本或移除 App 來刪除這些資料。
+連線設定、HTTPS 連結、OAuth 權杖、觀看紀錄、收藏、字幕、圖片快取與離線副本保存在使用者裝置；密碼、OAuth 權杖及儲存的 HTTPS 網址存放於 Apple Keychain。使用者可以移除已儲存連結、登出來源、清除快取、刪除離線副本或移除 App 來刪除這些資料。
 
 ## Connections chosen by the user / 使用者選擇的連線
 
-MediaRoam connects directly to SMB computers or NAS devices, pCloud, WebDAV servers, Jellyfin servers, or Files providers only when the user configures or opens that source. Those services process connection data under their own policies. Media files are not uploaded to MediaRoam or to a MediaRoam-operated server.
+MediaRoam connects directly to SMB computers or NAS devices, pCloud, WebDAV servers, Jellyfin servers, Files providers, or an HTTPS URL added by the user only when the user configures or opens that source. Those services and the server hosting an added URL process connection data under their own policies. Media files and saved URLs are not uploaded to MediaRoam or to a MediaRoam-operated server.
 
-只有在使用者設定或開啟來源時，MediaRoam 才會直接連接 SMB 電腦或 NAS、pCloud、WebDAV、Jellyfin 或 Files Provider。這些服務依各自政策處理連線資料。媒體不會上傳至 MediaRoam 或 MediaRoam 營運的伺服器。
+只有在使用者設定或開啟來源時，MediaRoam 才會直接連接 SMB 電腦或 NAS、pCloud、WebDAV、Jellyfin、Files Provider，或使用者加入的 HTTPS 網址。這些服務及網址所屬伺服器依各自政策處理連線資料。媒體與儲存的網址不會上傳至 MediaRoam 或 MediaRoam 營運的伺服器。
 
 ## Optional online artwork / 選用的線上圖片
 
