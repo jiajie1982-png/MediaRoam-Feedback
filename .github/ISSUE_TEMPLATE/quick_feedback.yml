@@ -1,0 +1,41 @@
+name: "Quick feedback / 簡短體驗回報"
+description: "Tell us what worked or where you got stuck / 不用先找出原因，直接描述順利或卡住的地方"
+title: "[Experience] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public form. No private files or screenshots are needed. AI maintenance replies identify themselves.
+        這是公開表單，不需要提供私人檔案或截圖；AI 維護助理回覆時會標示身分。
+  - type: input
+    id: version
+    attributes:
+      label: "App version / App 版本"
+      description: "Check Settings → About; write Unknown if you cannot find it. / 可在設定的關於查看；找不到可填不確定。"
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: "Device / 裝置"
+      options:
+        - "iPhone"
+        - "iPad"
+        - "Apple TV"
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: "What did you try? What happened? / 試了什麼？發生什麼事？"
+      placeholder: "Example: In the offline demo I opened the photo, but could not find how to return. / 例如：離線示範開啟照片後，找不到返回的方法。"
+      description: "Positive feedback is welcome too. Do not include private URLs, file names or files. / 順利的體驗也歡迎；請勿提供私人網址、檔名或檔案。"
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy / 隱私"
+      options:
+        - label: "I understand this is public and removed passwords, codes, tokens, IP addresses, full paths and private content. / 我知道內容公開，已移除密碼、驗證碼、Token、IP、完整路徑及私人內容。"
+          required: true

@@ -49,6 +49,7 @@ body:
     attributes:
       label: "Source / 資料來源"
       options:
+        - "Offline demo / 離線示範"
         - "SMB"
         - "pCloud"
         - "WebDAV"

@@ -6,11 +6,14 @@ MediaRoam 是免費的 iPhone、iPad 與 Apple TV 個人媒體瀏覽器，可連
 
 ## Contact support / 聯絡支援
 
+New here? [Download and try the offline demo in five minutes / 下載與五分鐘離線示範指南](TRY_MEDIAROAM.md).
+
 Use one of the public, guided forms below. Routine triage and replies are handled by the MediaRoam AI maintenance assistant, and every AI reply clearly identifies itself.
 
 請使用下方公開表單。例行分類與回覆由 MediaRoam 的 AI 維護助理處理，且每一則 AI 回覆都會清楚標示身分。
 
 - [Report a bug / 回報問題](https://github.com/jiajie1982-png/MediaRoam-Feedback/issues/new?template=bug_report.yml)
+- [Quick experience feedback / 簡短體驗回報](https://github.com/jiajie1982-png/MediaRoam-Feedback/issues/new?template=quick_feedback.yml)
 - [Request a feature / 提出功能願望](https://github.com/jiajie1982-png/MediaRoam-Feedback/issues/new?template=feature_request.yml)
 - [Browse existing feedback / 查看所有回饋](https://github.com/jiajie1982-png/MediaRoam-Feedback/issues)
 

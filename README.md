@@ -4,6 +4,18 @@ Public feedback, bug reports, feature requests, and AI-maintained support for Me
 
 這是 MediaRoam 的公開問題回報與功能願望區。This is the public support and feature-request space for MediaRoam.
 
+## Download and try / 下載與試用
+
+[Download MediaRoam on the App Store / 前往 App Store 免費下載](https://apps.apple.com/tw/app/mediaroam/id6804534300)
+
+For iPhone, iPad, and Apple TV. Browse and play your own media from compatible storage; MediaRoam does not provide a movie library or cloud storage space. Availability depends on your storefront; France is not offered.
+
+支援 iPhone、iPad 與 Apple TV，瀏覽及播放你自己儲存的媒體；App 不提供電影片庫或雲端容量。供應情況以帳號所屬商店為準，法國不供應。
+
+- [Five-minute first try / 五分鐘試用指南](TRY_MEDIAROAM.md): start with the built-in offline demo, without sharing any private files.
+- [Quick feedback / 簡短體驗回報](https://github.com/jiajie1982-png/MediaRoam-Feedback/issues/new?template=quick_feedback.yml): tell us what worked or where you got stuck. A GitHub account is required; reports are public.
+- [Troubleshooting / 疑難排解](SUPPORT.md)
+
 ## Before posting / 留言前請注意
 
 - Search existing issues first. 請先搜尋是否已有相同問題。
@@ -16,7 +28,7 @@ Public feedback, bug reports, feature requests, and AI-maintained support for Me
 
 - MediaRoam version
 - Apple device and OS version
-- Source: SMB, pCloud, WebDAV, Jellyfin, or Files
+- Source: offline demo, SMB, pCloud, WebDAV, Jellyfin, Files, or HTTPS link
 - File type or media format
 - Exact error message
 - Short, repeatable steps
