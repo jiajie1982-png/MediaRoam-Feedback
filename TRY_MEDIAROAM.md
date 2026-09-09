@@ -1,6 +1,8 @@
 # Try MediaRoam / 五分鐘試用指南
 
-[Free download on the App Store / App Store 免費下載](https://apps.apple.com/tw/app/mediaroam/id6804534300)
+[Free download on the App Store / App Store 免費下載](https://apps.apple.com/app/apple-store/id6804534300?pt=129350645&ct=support_try_150&mt=8)
+
+This download link uses Apple's aggregate campaign reporting; it does not add an in-app tracking SDK. 此下載連結使用 Apple 的彙總宣傳成效報表，不會加入 App 內追蹤 SDK。
 
 MediaRoam is for your own media on iPhone, iPad, and Apple TV. There are no ads or subscriptions. It does not include a movie catalogue or extra cloud storage. Storefront availability and device requirements are shown on the App Store; France is not offered.
 
